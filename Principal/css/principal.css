@@ -1,0 +1,468 @@
+:root{
+    --color-primary:
+}
+
+
+
+.jas-branding {
+    max-width: 100px;
+    margin: auto;
+}
+
+body,
+.jas-menu>li>a,
+.f__pop,
+.jas-menu ul li a {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 12px;
+    color: #747475
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.f__pop {
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 21px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 13px;
+}
+
+a:hover,
+a:active,
+.cp,
+.chp:hover,
+.inside-thumb a:hover,
+.jas-blog-slider .post-thumbnail>div a:hover,
+.shop-top-sidebar .product-categories li.current-cat>a,
+.quantity .qty a:hover,
+.cart .yith-wcwl-add-to-wishlist a:hover,
+.woocommerce-MyAccount-navigation ul li:hover a,
+.woocommerce-MyAccount-navigation ul li.is-active a {
+    color: #c44d5a;
+}
+
+input[type="submit"]:hover,
+button:hover,
+a.button:hover,
+.jas-ajax-load a:hover,
+.widget .tagcloud a:hover,
+.jas-ajax-load a:hover,
+.cart .yith-wcwl-add-to-wishlist:hover,
+.p-video a:hover,
+button.button:hover {
+    border-color: #c44d5a;
+}
+
+input[type="submit"]:hover,
+button:hover,
+a.button:hover,
+button.button:hover,
+.jas-ajax-load a:hover,
+.bgp,
+.bghp:hover,
+.signup-newsletter-form input.submit-btn:hover,
+.widget .tagcloud a:hover,
+.widget_price_filter .ui-slider-range,
+.widget_price_filter .ui-state-default,
+.jas-mini-cart .checkout,
+.jas-ajax-load a:hover,
+.metaslider .flexslider .flex-prev,
+.metaslider .flexslider .flex-next,
+button.single_add_to_cart_button,
+.jas_wcpb_add_to_cart.single_add_to_cart_button,
+.jas-service[class*="icon-"] .icon:before,
+.cart__popup-action .checkout-button,
+div.wpforms-container-full .wpforms-form button[type="submit"],
+div.wpforms-container-full .wpforms-form button[type="submit"]:hover {
+    background-color: #c44d5a;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input[type="submit"],
+button,
+a.button,
+.jas-ajax-load a,
+.cd,
+.wp-caption-text,
+#jas-header .jas-social a,
+#jas-backtop:hover span i,
+.page-numbers li,
+.page-numbers li a,
+.jas-portfolio-single .portfolio-meta span,
+.sidebar .widget ul li:before,
+.widget ul.product_list_widget li a span.product-title,
+.widget .tagcloud a,
+.filter-trigger:hover,
+.filter-trigger:focus,
+.jas-mini-cart .mini_cart_item a:nth-child(2),
+.btn-atc .yith-wcwl-add-to-wishlist .ajax-loading,
+.product-category h3,
+.quantity input.input-text[type="number"],
+.cart .yith-wcwl-add-to-wishlist a,
+.wc-tabs li.active a,
+.wc-tabs li a:hover,
+.shop_table th,
+.order-total,
+.order-total td,
+.woocommerce-MyAccount-navigation ul li a,
+.jas-filter a.selected,
+.jas-filter a:hover,
+.jas-row .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab>a:focus,
+.jas-row .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab>a:hover,
+.jas-row .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab.vc_active>a,
+.metaslider .flexslider .caption-wrap h2,
+.metaslider .flexslider .caption-wrap h3,
+.metaslider .flexslider .caption-wrap h4,
+.jas-menu ul li:hover>a,
+#jas-mobile-menu ul li a,
+.holder {
+    color: #222;
+}
+
+input:not([type="submit"]):not([type="checkbox"]):focus,
+textarea:focus,
+.error-404.not-found a,
+.more-link,
+.widget .tagcloud a,
+.widget .woocommerce-product-search,
+.widget .search-form,
+.woocommerce .widget_layered_nav ul.yith-wcan-label li a:hover,
+.woocommerce-page .widget_layered_nav ul.yith-wcan-label li a:hover,
+.woocommerce .widget_layered_nav ul.yith-wcan-label li.chosen a,
+.woocommerce-page .widget_layered_nav ul.yith-wcan-label li.chosen a,
+.jas-ajax-load a,
+form .quantity,
+.quantity input.input-text[type="number"]:focus,
+.cart .yith-wcwl-add-to-wishlist,
+.wc-tabs li.active a,
+.p-video a,
+.jas-filter a.selected,
+.jas-row .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab>a:focus,
+.jas-row .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab>a:hover,
+.jas-row .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab.vc_active>a {
+    border-color: #222;
+}
+
+mark,
+.signup-newsletter-form input.submit-btn,
+.error-404.not-found a:hover,
+.more-link:hover,
+.widget h4.widget-title:after,
+.widget .woocommerce-product-search input[type="submit"],
+.widget .search-form .search-submit,
+.woocommerce .widget_layered_nav ul.yith-wcan-label li a:hover,
+.woocommerce-page .widget_layered_nav ul.yith-wcan-label li a:hover,
+.woocommerce .widget_layered_nav ul.yith-wcan-label li.chosen a,
+.woocommerce-page .widget_layered_nav ul.yith-wcan-label li.chosen a,
+.jas-mini-cart .button,
+.btn-quickview:hover,
+.tab-heading:after,
+.product-extra-title h2:before,
+.product-extra-title h2:after,
+.section-title:before,
+.section-title:after {
+    background-color: #222;
+}
+
+body {
+    background-color: #fff
+}
+
+body {
+    color: #747475
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222
+}
+
+.jas-socials a,
+.header-text,
+.header__top .jas-action a {
+    color: #f6f6f8;
+}
+
+.header__top {
+    background-color: #59120e
+}
+
+.jas-menu>li>a,
+#jas-mobile-menu ul>li:hover>a,
+#jas-mobile-menu ul>li.current-menu-item>a,
+#jas-mobile-menu ul>li.current-menu-parent>a,
+#jas-mobile-menu ul>li.current-menu-ancestor>a,
+#jas-mobile-menu ul>li:hover>.holder,
+#jas-mobile-menu ul>li.current-menu-item>.holder,
+#jas-mobile-menu ul>li.current-menu-parent>.holder,
+#jas-mobile-menu ul>li.current-menu-ancestor>.holder,
+.jas-menu li.current-product_cat-ancestor>a,
+.jas-action a {
+    color: #222;
+}
+
+.jas-menu li>a:hover,
+.jas-menu li.current-menu-ancestor>a,
+.jas-menu li.current-menu-item>a,
+.jas-account-menu a:hover,
+.jas-action a:hover {
+    color: #c44d5a;
+}
+
+.jas-menu ul a,
+.jas-account-menu ul a,
+.jas-menu ul li a {
+    color: #f6f6f8;
+}
+
+.jas-menu ul li a:hover {
+    color: #222;
+}
+
+.jas-account-menu ul,
+.jas-menu>li>ul {
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.home .header__transparent .jas-menu>li>a {
+    color: #222;
+}
+
+.home .header__transparent .jas-menu li>a:hover {
+    color: #c44d5a;
+}
+
+.home .header-sticky .jas-menu>li>a,
+.home .header-sticky .jas-action a {
+    color: #222;
+}
+
+.header-sticky .header__mid {
+    background: #fff;
+}
+
+.header-sticky .jas-menu>li>a,
+.header-sticky .jas-action a {
+    color: #222;
+}
+
+.header-sticky .jas-menu li a:hover,
+.header-sticky .jas-menu li.current-menu-ancestor>a,
+.header-sticky .jas-menu li.current-menu-item>a,
+.header-sticky .jas-action a:hover {
+    color: #c44d5a;
+}
+
+.header-sticky .jas-account-menu ul,
+.header-sticky .jas-menu>li>ul {
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.header-sticky .jas-menu ul li a {
+    color: #222;
+}
+
+.header-sticky .jas-menu ul li a:hover,
+.header-sticky .jas-menu ul li.current-menu-item a,
+.header-sticky .jas-menu ul li.current-menu-ancestor>a {
+    color: #c44d5a;
+}
+
+#jas-footer {
+    background: F6F6F8;
+}
+
+#jas-footer {
+    color: #747475;
+}
+
+.footer__top a,
+.footer__bot a {
+    color: #747475;
+}
+
+.footer__top .widget-title {
+    color: #222;
+}
+
+.footer__top a:hover,
+.footer__bot a:hover {
+    color: #c44d5a;
+}
+
+.badge span {
+    background: #000000;
+}
+
+.badge span {
+    color: #FFF;
+}
+
+.badge .new {
+    background: #c44d5a;
+}
+
+.product-image .product-attr {
+    background: transparent;
+}
+
+.single-product.postid-5532 .jas-container {
+    width: 100%;
+    padding: 0 30px;
+}
+
+.sidebar .widget.yith-woocommerce-ajax-product-filter ul li:before {
+    content: none;
+}
+
+.sidebar .widget.yith-woocommerce-ajax-product-filter ul li {
+    padding-left: 0;
+}
+
+/*TAMAÑO DEL TEXTO DE PRODUCTOS*/
+.fs__14 {
+    font-size: 11px;
+}
+
+/*UBICACION CIRCULOS COLOR SWATCH*/
+.price+.swatch__list {
+    margin: -35px 0px 10px 200px;
+    padding-bottom: 20px;
+}
+
+
+/*UBICACION CIRCULOS COLOR SWATCH RESPONSIVE MOVIL*/
+@media only screen and (max-width: 700px) {
+
+    .price+.swatch__list {
+        margin: 0px 0px 1px 0px;
+        padding-bottom: 20px;
+    }
+
+}
+
+
+
+/*TAMAÑO CIRCULOS COLOR SWATCH*/
+.swatch__list--item {
+    margin: 1px;
+    border-radius: 100%;
+    border: 1px solid #ddd;
+    padding: 1px;
+
+}
+
+.u-small .swatch__value {
+    width: 12px;
+    height: 12px;
+    line-height: 16px;
+    font-size: 11px;
+}
+
+/*SEPARACION ENTRE PRODUCTOS GRID*/
+.mt__30 {
+    margin-top: 40px;
+    padding: 5px;
+}
+
+
+/*OCULTA LA OPCION DE ELEGIR CANTIDAD DE FILAS EN EL GRID DE PRODUCTOS*/
+.wc-col-switch a.six {
+    width: 81px;
+    display: none;
+}
+
+.wc-col-switch a.four {
+    width: 81px;
+    display: none;
+}
+
+.wc-col-switch a.three {
+    width: 81px;
+    display: none;
+}
+
+.wc-col-switch a.two {
+    width: 81px;
+    display: none;
+}
+
+
+/*COLOR DE CABECERA DE CATEGORIAS*/
+.page-head:before {
+    content: '';
+    position: absolute;
+    background: #F6F6F8;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cw,
+.bghp:hover {
+    color: #FFF;
+}
+
+.page-head {
+    padding: 50px 0;
+    color: #333333;
+}
+
+/*COLOR DE CIRCULO (BACKGROUND) Y TEXTO (BGHP HOVER) DE CARRITO COMPRA*/
+
+.bgb {
+    background: #59120e;
+}
+
+/*ALINEACION ELEMENTOS DEL FOOTER*/
+p {
+    margin-bottom: 1.3em;
+    margin-top: -10px;
+}
