@@ -597,6 +597,7 @@ input:focus:-ms-input-placeholder { color:transparent;}
 	-webkit-flex-basis: 25%;
 	flex-basis: 25%;
 	max-width: 25%;
+	 
 }
 .jas-col-xs-4 {
 	-ms-flex-preferred-size: 33.333%;
@@ -1798,6 +1799,7 @@ input:focus:-ms-input-placeholder { color:transparent;}
 	transform: scale(0);
 	width: 0;
 	height: 0;
+ 
 }
 .header-sticky .sticky-logo {
 	opacity: 1;

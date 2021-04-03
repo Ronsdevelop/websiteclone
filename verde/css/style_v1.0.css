@@ -411,17 +411,39 @@
 
      .nav-menu {
          position: fixed;
-         top: 8.52rem;
+         top: 0;
          right: -100%;
          width: 80%;
          height: 100%;
          padding: 2rem;
 
-         background-color: var(--secondary);
+         background-color: var(--primary);
          transition: .4s;
+     }
+     .nav-menu h3{
+        font-size: 16px;
+        line-height: 50px;
+        color: #FFFFFF;
+        background: #57100b;
+        text-align: center;
+        margin: -2em;
 
+     }
+     .nav-menu h3 img{
+        position: relative;       
+       left: auto;
+       right: -8.5rem;
+       cursor: pointer;
 
+     }
+    
+     .nav-menu ul{
+        margin-top: 2em;
 
+     }
+     .panel{
+         text-align: center;
+         margin-top: 4.5rem;
      }
 
      .navegacion-toggle {
