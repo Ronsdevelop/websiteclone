@@ -2,18 +2,36 @@
 
 const mostrarMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
-    nav = document.getElementById(navId)
+    nav = document.getElementById(navId);
+    const mq768 = window.matchMedia('screen and (max-width: 768px)');
+     
     
     // Validar si existe la variable
     if(toggle && nav){
         toggle.addEventListener('click', ()=>{
             // We add the show-menu class to the div tag with the nav__menu class
-            nav.classList.toggle('mostrar-menu')
+            nav.classList.toggle('mostrar-menu');
+            if (mq768.matches) {
+                toggle.style.display = 'none';
+            }
+            
         })
     }
+   
+
 };
 mostrarMenu('nav-toggle','nav-menu');
 
+/*  CERRAR MENU */
+/* const mainMenu = document.querySelector();
+const closeMenu = document.querySelector('.close-menu');
+const mainMenu = document.querySelector();
+closeMenu.addEventListener('click',close);
+function close(){
+
+
+}
+ */
 /*==================== REMOVER EL MENU MOVIL ====================*/
 const navLink = document.querySelectorAll('.nav-enlaces')
 

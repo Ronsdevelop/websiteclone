@@ -429,13 +429,23 @@
         margin: -2em;
 
      }
-     .nav-menu h3 img{
-        position: relative;       
-       left: auto;
-       right: -8.5rem;
-       cursor: pointer;
+     .nav-menu h3 i{ 
+           
+        left: 8px;
+        top: 0;
+        line-height: 50px;
+        cursor: pointer;
+        position: absolute;
+        font-size: 1.7rem;
+     
 
      }
+     .nav-menu h3 i.close-menu{        
+        left: auto;
+        right: 8px;
+
+     }
+     
     
      .nav-menu ul{
         margin-top: 2em;
@@ -444,7 +454,12 @@
      .panel{
          text-align: center;
          margin-top: 4.5rem;
+          
      }
+     .panel a{
+        color: #FFFFFF;
+     }
+    
 
      .navegacion-toggle {
          display: block !important;
