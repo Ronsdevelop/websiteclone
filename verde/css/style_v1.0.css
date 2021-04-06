@@ -343,10 +343,11 @@
 
  .l-header {
      width: 100%;
-     position: fixed;
+     /* position: fixed; */
+     position: absolute;
      top: 0;
      left: 0;
-     z-index: var(--z-fixed);
+     /* z-index: var(--z-fixed); */
      background-color: var(--body-color);
  }
 

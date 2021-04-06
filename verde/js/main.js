@@ -45,11 +45,13 @@ function close(){
 const navLink = document.querySelectorAll('.nav-enlaces')
 
 function linkAction() {
+    mask = document.getElementById('mask');
     navLink.forEach(n => n.classList.remove('activo'));
     this.classList.add('activo');
     /*   remover el menu en responsive */
     const navMenu = document.getElementById('nav-menu');
-    navMenu.classList.remove('mostrar-menu')
+    navMenu.classList.remove('mostrar-menu');
+    mask.classList.remove('mask-overlay');
 
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
