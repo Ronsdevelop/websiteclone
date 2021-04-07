@@ -343,8 +343,8 @@
 
  .l-header {
      width: 100%;
-     /* position: fixed; */
-     position: absolute;
+     position: fixed;
+    /*  position: absolute; */
      top: 0;
      left: 0;
      /* z-index: var(--z-fixed); */
@@ -443,6 +443,8 @@
         margin: -2em;
 
      }
+   
+   
      .nav-menu h3 i{ 
            
         left: 8px;
